@@ -1,0 +1,217 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(17, 16, 16);
+    background-color: #F1E9E6;
+}
+
+header {
+	font-family: cursive;
+	background-color: #D7A790;
+	box-shadow: 0 2px 4px #9a9a231a;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+    font-family: sans-serif;
+	display: flex;
+}
+
+nav li {
+	float: right;
+	margin-right: 20px;
+}
+
+nav a {
+	float: right;
+	text-decoration: none;
+	color: #333;
+}
+
+nav a:hover {
+	color: #bfa79c;
+}
+
+.banner {
+	background-image: url('https://dummyimage.com/1200x500/ccc/fff');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 500px;
+}
+
+.banner h2 {
+	color: #fff;
+	font-size: 48px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.banner button {
+	background-color: #A6826C;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.banner button:hover {}
+
+ footer {
+    background-color: #F1E9E6;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+ }
+
+
+.badan h2{
+	font-family: cursive;
+	text-align: center;
+}
+
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+#contact {
+    background: #bf871f;
+    padding:50px 0px 50px 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.welcome .deskripsi {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+
+}
+
+.welcome h2{
+	text-align: right;
+	font-family: 'comic sans ms';
+}
+
+.welcome p{
+	text-align: right;
+	font-family: 'comic sans ms';
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #364f6b;
+
+}
+
+.dtng h2{
+	text-align: center;	
+}
+
+.Tim-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ytb{
+	text-align: center;
+}
+
+.fto{
+	padding-bottom: 10%;
+}
+
+.bwh{
+	font-family: cursive;
+	text-align: center;
+	font-size: 25px;
+	color: #bfa79c;
+}
+
+.kolom{
+	text-align: left;
+	padding-bottom: 50px;
+	font-family: cursive;
+}
+
+.box{
+	font-family: cursive;
+}
+
+.container{
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box{
+	text-align: center;
+}
+
+.contak{
+	text-align: center;
+	padding-bottom: 60px;
+    padding-top: 60px;
+	max-width: 600px;
+    margin:  auto;
+    border-radius: 20px;
+    
+}
+
+.username{
+	padding-right: 625px;
+	color: aliceblue;
+}
+
+.yt{
+    text-align: center;
+}
+
+.login{
+    background-color: bisque;
+}
+
+.daftar{
+	text-align: center;
+}
+
+.daf{
+	text-align: center;
+}
+
+.daf1{
+	text-align: center;
+}
+
+.pen{
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+}

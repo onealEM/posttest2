@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../tampil-data.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+		<div class="logo">ONILZ</div>
+		<div class="container">
+			<h1>wedding organizer terbaik untuk hari bahagiamu</h1>
+			<nav>
+				<ul>
+					<li><a href="Beranda.html">Beranda</a></li>
+					<li><a href="Layanan.html">Layanan</a></li>
+					<li><a href="Portofolio.html">Portofolio</a></li>
+					<li><a href="Kontak.html">Registrasi</a></li>
+                    <li><a href="login.html">login</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+    <h1>DATA PENDAFTAR</h1>
+	<section>
+		<table>
+			<thead>
+				<tr>
+					<th>Nama</th>
+					<th>Kontak</th>
+					<th>Email</th>
+					<th>Pesan</th>
+					<th>Asal</th>
+					<th>Tempat Acara</th>
+					<th>Gelaran Acara</th>
+				</tr>
+			</thead>
+			<tbody id="data-body">
+				
+			</tbody>
+		</table>
+	</section>
+
+	<script>
+		var data = JSON.parse(sessionStorage.getItem('data')) || [];
+		var dataBody = document.getElementById('data-body');
+		for (var i = 0; i < data.length; i++) {
+			var tr = document.createElement('tr');
+			tr.innerHTML = '<td>' + data[i]['Nama'] + '</td>' +
+						'<td>' + data[i]['Kontak'] + '</td>' +
+						'<td>' + data[i]['Email'] + '</td>' +
+						'<td>' + data[i]['Pesan'] + '</td>' +
+						'<td>' + data[i]['Asal'] + '</td>' +
+                        '<td>' + data[i]['Tempat Acara'] + '</td>'+
+						'<td>' + data[i]['Gelaran Acara'].join(', ') + '</td>';
+			dataBody.appendChild(tr);
+		}
+    </script>
+
+</body>
+</html>
